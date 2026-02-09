@@ -7,36 +7,36 @@ Visual Question Answering (VQA) is a multimodal task that combines computer visi
 This repository containes 
 1. requirements.txt: All the required libaries and their version
 2. VQA_EDA.ipynb: EDA done on 10k samples
-3. BLIP-2 VQA.ipynb: Loading and training of the model and save .pt file
-4. BLIP-2 Evaluation using pt.ipynb: Evaluation of model using .pt file and also shows the working of the .pt file
+3. BLIP-2_VQA_Training.ipynb: Loading and training of the model and save .pt file
+4. BLIP-2_Evaluation.ipynb: Evaluation of model using .pt file and also shows the working of the .pt file
 5. vqa_2000_results.csv: Results of evaluation on 2000 test samples
 6. Multimodal Visual Question Answering Using BLIP-2.pptx: Presentaton slides of the project
 
 
 # Objective
 
-• To use a pre-trained model BLIP-2 on the VQAv2 dataset for generative question answering. 
-• To compare the proposed approach with traditional VQA approach where vocabulary is fixed. 
-• To evaluate the quantitative and qualitative performance of the generative VQA model. 
-• To evaluate the strengths and weaknesses of the transfer learning in multimodal VQA in pretrained model.
+1. To use a pre-trained model BLIP-2 on the VQAv2 dataset for generative question answering.
+2. To compare the proposed approach with traditional VQA approach where vocabulary is fixed.
+3. To evaluate the quantitative and qualitative performance of the generative VQA model.
+4. To evaluate the strengths and weaknesses of the transfer learning in multimodal VQA in pretrained model.
 
 # BLIP-2 Model Used
 
 Salesforce/blip2-opt-2.7b" from huggingface
 
 # Architecture
-Frozen Vision Transformer (ViT)
-Q-Former for vision-language alignment
-Frozen Large Language Model (OPT)
+1. Frozen Vision Transformer (ViT)
+2. Q-Former for vision-language alignment
+3. Frozen Large Language Model (OPT)
 
 # Dataset:
 
-VQAv2 (https://visualqa.org/)
+VQAv2: downloaded from https://visualqa.org/
 
 # Ready to use model
 
 link for .pt file: https://drive.google.com/file/d/16dC31OxdtSR_0p9pgCoa90BNjgMyYhj0/view?usp=sharing
-I have also shared a file named BLIP-2 Evaluation using pt.ipynb to show the  evaluation of model and working of .pt file.
+I have also shared a file named BLIP-2_Evaluation.ipynb to show the  evaluation of model and working of .pt file.
 
 # .csv file
 
