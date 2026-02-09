@@ -7,7 +7,7 @@ Visual Question Answering (VQA) is a multimodal task that combines computer visi
 This repository containes 
 1. requirements.txt: All the required libaries and their version
 2. VQA_EDA.ipynb: EDA done on 10k samples
-3. BLIP-2_VQA_Training.ipynb: Loading and training of the model and save .pt file
+3. BLIP-2_VQA_Training.ipynb: Loading 5k random train set which changes everytime the code is run and training of the model with that data samples and save .pt file with the best epoch (less train loss and val loss)
 4. BLIP-2_Evaluation.ipynb: Evaluation of model using .pt file and also shows the working of the .pt file
 5. vqa_2000_results.csv: Results of evaluation on 2000 test samples
 6. Multimodal Visual Question Answering Using BLIP-2.pptx: Presentaton slides of the project
